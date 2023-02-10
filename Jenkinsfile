@@ -5,7 +5,7 @@ pipeline {
         stage('click') {
             steps {
                 sh 'python3 click.py'
-                sh 'welcome.py'
+                sh 'python3 welcome.py'
             }
         }
     }
